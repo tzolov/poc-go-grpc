@@ -34,9 +34,10 @@ go get tzolov.net/go-grpc/message
 ## Docker Image
 
 ```
-docker build -t tzolov/grpc_go_app:0.1 .
+docker build -t tzolov/poc-go-grpc:0.1 .
+docker push tzolov/poc-go-grpc:0.1
 ```
 
 ```
-docker run -it -p55554:55554 tzolov/grpc_go_app:0.1
+docker run -it -p55554:55554 tzolov/poc-go-grpc:0.1
 ```

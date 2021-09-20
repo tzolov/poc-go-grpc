@@ -16,8 +16,8 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build -o /docker-go-grpc
+RUN go build -o /poc-go-grpc
 
 EXPOSE 55554
 
-CMD [ "/docker-go-grpc" ]
+CMD [ "/poc-go-grpc" ]
