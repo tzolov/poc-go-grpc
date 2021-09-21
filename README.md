@@ -1,10 +1,8 @@
 # poc-go-grpc
-
 ## protoc
 
 https://developers.google.com/protocol-buffers/docs/reference/go-generated#package
 https://grpc.io/docs/languages/go/quickstart/
-
 ```
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
@@ -25,6 +23,7 @@ go mod init github.com/tzolov/poc-go-grpc/message
 go mod tidy
 ```
 
+https://medium.com/@adiach3nko/package-management-with-go-modules-the-pragmatic-guide-c831b4eaaf31
 
 ```
 go mod edit -replace tzolov.net/go-grpc/message=./protos/
